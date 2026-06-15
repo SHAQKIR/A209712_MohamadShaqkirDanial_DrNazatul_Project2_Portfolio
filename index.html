@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EcoWatt e-Portfolio | A209712</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', sans-serif; background: #f0f4f8; color: #1a1a2e; }
+  header { background: linear-gradient(135deg, #415F91, #284777); color: white; padding: 48px 24px; text-align: center; }
+  header h1 { font-size: 2.5rem; margin-bottom: 8px; }
+  header p { font-size: 1rem; opacity: 0.85; }
+  nav { background: #284777; display: flex; justify-content: center; flex-wrap: wrap; gap: 4px; padding: 12px; }
+  nav a { color: white; text-decoration: none; padding: 8px 16px; border-radius: 20px; font-size: 0.85rem; transition: background 0.2s; }
+  nav a:hover { background: #415F91; }
+  .container { max-width: 900px; margin: 0 auto; padding: 32px 16px; }
+  section { background: white; border-radius: 12px; padding: 28px; margin-bottom: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+  section h2 { color: #415F91; font-size: 1.4rem; margin-bottom: 16px; border-bottom: 2px solid #D6E3FF; padding-bottom: 8px; }
+  section h3 { color: #284777; margin: 16px 0 8px; }
+  .badge { display: inline-block; background: #D6E3FF; color: #284777; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; margin: 4px; }
+  .lab-card { background: #f8f9ff; border-left: 4px solid #415F91; padding: 16px; border-radius: 8px; margin-bottom: 12px; }
+  .lab-card a { color: #415F91; font-weight: bold; }
+  table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+  th { background: #415F91; color: white; padding: 10px; text-align: left; }
+  td { padding: 10px; border-bottom: 1px solid #e0e0e0; }
+  tr:nth-child(even) { background: #f8f9ff; }
+  footer { text-align: center; padding: 24px; color: #666; font-size: 0.85rem; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>⚡ EcoWatt e-Portfolio</h1>
+  <p>Mohamad Shaqkir Danial | A209712 | TK2323/TM2213 | Dr. Nazatul</p>
+  <p style="margin-top:8px;">SDG 7 — Affordable and Clean Energy</p>
+</header>
+
+<nav>
+  <a href="#profile">Profile</a>
+  <a href="#labs">Labs</a>
+  <a href="#projects">Projects</a>
+  <a href="#reflection">Reflection</a>
+  <a href="#skills">Skills</a>
+  <a href="#resources">Resources</a>
+</nav>
+
+<div class="container">
+
+  <!-- PROFILE -->
+  <section id="profile">
+    <h2>👤 Student Profile</h2>
+    <p><strong>Name:</strong> Mohamad Shaqkir Danial</p>
+    <p><strong>Matric No:</strong> A209712</p>
+    <p><strong>Programme:</strong> [Your Programme]</p>
+    <p><strong>Instructor:</strong> Dr. Nazatul</p>
+    <p style="margin-top:12px;"><strong>Introduction:</strong> I am a mobile programming student passionate about building apps that contribute to a sustainable future. My learning goal is to master Android development using Jetpack Compose and modern Android architecture.</p>
+    <p style="margin-top:12px;"><strong>SDG Theme:</strong> SDG 7 — Affordable and Clean Energy. EcoWatt empowers users to monitor and reduce their energy consumption.</p>
+  </section>
+
+  <!-- LABS -->
+  <section id="labs">
+    <h2>🧪 Lab Submissions</h2>
+
+    <div class="lab-card">
+      <h3>Lab 1 — UI Basics</h3>
+      <p>Built basic UI components using Jetpack Compose.</p>
+      <p><a href="YOUR_LAB1_YOUTUBE_LINK" target="_blank">▶ Watch on YouTube</a></p>
+      <p><strong>Reflection:</strong> I learned how to structure composables and use modifiers effectively.</p>
+    </div>
+
+    <div class="lab-card">
+      <h3>Lab 2 — Interaction</h3>
+      <p>Added user interactions, state management, and event handling.</p>
+      <p><a href="YOUR_LAB2_YOUTUBE_LINK" target="_blank">▶ Watch on YouTube</a></p>
+      <p><strong>Reflection:</strong> Understanding remember and mutableStateOf helped me manage UI state properly.</p>
+    </div>
+
+    <div class="lab-card">
+      <h3>Lab 3 — Material Design</h3>
+      <p>Applied Material 3 theming, colors, and typography.</p>
+      <p><a href="YOUR_LAB3_YOUTUBE_LINK" target="_blank">▶ Watch on YouTube</a></p>
+      <p><strong>Reflection:</strong> Material Design guidelines made my UI more consistent and professional.</p>
+    </div>
+
+    <div class="lab-card">
+      <h3>Lab 4 — Navigation</h3>
+      <p>Implemented multi-screen navigation using Navigation Compose.</p>
+      <p><a href="YOUR_LAB4_YOUTUBE_LINK" target="_blank">▶ Watch on YouTube</a></p>
+      <p><strong>Reflection:</strong> NavHost and composable routes made navigation clean and manageable.</p>
+    </div>
+
+    <div class="lab-card">
+      <h3>Lab 5 — Room Database</h3>
+      <p>Implemented local data persistence using Room with DAO and Entity.</p>
+      <p><a href="YOUR_LAB5_YOUTUBE_LINK" target="_blank">▶ Watch on YouTube</a></p>
+      <p><strong>Reflection:</strong> Room simplified database operations and integrates well with Flow and ViewModel.</p>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>📱 Project Submissions</h2>
+
+    <div class="lab-card">
+      <h3>Project 1 — Multi-Screen App</h3>
+      <p><strong>Problem Statement:</strong> Many Malaysians are unaware of their daily energy consumption. EcoWatt provides a simple interface to track and understand energy usage aligned with SDG 7.</p>
+      <p><strong>Features:</strong> Multi-screen navigation, ViewModel state sharing, energy check-in, calculator.</p>
+      <p><a href="YOUR_PROJECT1_YOUTUBE_LINK" target="_blank">▶ VSR on YouTube</a> | <a href="YOUR_PROJECT1_GITHUB_LINK" target="_blank">📂 GitHub Repo</a></p>
+      <p><strong>Lessons Learned:</strong> Learned how to share state across screens using a single ViewModel and AppState data class.</p>
+    </div>
+
+    <div class="lab-card">
+      <h3>Project 2 — Advanced Data, APIs & Sensors</h3>
+      <p><strong>Problem Statement:</strong> To further empower users, EcoWatt was upgraded with real-time weather data, local persistence, cloud sync, and GPS-based solar potential analysis.</p>
+      <p><strong>New Features:</strong></p>
+      <ul style="margin-left:20px; margin-top:8px;">
+        <li>🗄️ Room Database — stores usage entries and accounts locally</li>
+        <li>☁️ Firebase Firestore — community energy board synced to cloud</li>
+        <li>🌤️ Open-Meteo API — live weather and solar radiation data</li>
+        <li>📍 GPS Sensor — gets current location to fetch local weather</li>
+      </ul>
+      <p style="margin-top:12px;"><a href="YOUR_PROJECT2_YOUTUBE_LINK" target="_blank">▶ VSR on YouTube</a> | <a href="YOUR_PROJECT2_GITHUB_LINK" target="_blank">📂 GitHub Repo</a></p>
+      <p><strong>Lessons Learned:</strong> Integrating multiple data sources (Room, Firebase, API, Sensor) taught me how to manage async operations cleanly using coroutines and Flow.</p>
+    </div>
+  </section>
+
+  <!-- REFLECTION -->
+  <section id="reflection">
+    <h2>💭 Reflection & Learning Journey</h2>
+    <p>Starting from Lab 1 where I first built basic UI with Compose, to Project 2 where I integrated GPS sensors, live APIs, and cloud databases — the growth has been significant.</p>
+    <p style="margin-top:12px;">The biggest challenge was understanding how Room, DataStore, Firebase, and the API all work together in one ViewModel without causing data conflicts. Using a single AppState data class and collecting multiple Flows using combine() was the solution that made everything click.</p>
+    <p style="margin-top:12px;">EcoWatt contributes to SDG 7 by giving users real-time awareness of their energy footprint and connecting them with a community of like-minded energy savers. Technology can genuinely drive sustainable behaviour change.</p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>🛠️ Skills & Tech Stack</h2>
+    <span class="badge">Jetpack Compose</span>
+    <span class="badge">Kotlin</span>
+    <span class="badge">Navigation Compose</span>
+    <span class="badge">ViewModel</span>
+    <span class="badge">StateFlow</span>
+    <span class="badge">Room Database</span>
+    <span class="badge">Firebase Firestore</span>
+    <span class="badge">Retrofit</span>
+    <span class="badge">REST APIs</span>
+    <span class="badge">GPS / FusedLocation</span>
+    <span class="badge">DataStore</span>
+    <span class="badge">Coroutines</span>
+    <span class="badge">Material Design 3</span>
+    <span class="badge">GitHub</span>
+    <span class="badge">Android Studio</span>
+  </section>
+
+  <!-- RESOURCES -->
+  <section id="resources">
+    <h2>📚 Resources & References</h2>
+    <table>
+      <tr><th>Resource</th><th>Link</th></tr>
+      <tr><td>Open-Meteo Weather API</td><td><a href="https://open-meteo.com" target="_blank">open-meteo.com</a></td></tr>
+      <tr><td>Firebase Firestore Docs</td><td><a href="https://firebase.google.com/docs/firestore" target="_blank">firebase.google.com</a></td></tr>
+      <tr><td>Jetpack Compose Docs</td><td><a href="https://developer.android.com/compose" target="_blank">developer.android.com</a></td></tr>
+      <tr><td>Room Database Docs</td><td><a href="https://developer.android.com/training/data-storage/room" target="_blank">developer.android.com</a></td></tr>
+      <tr><td>Android Navigation</td><td><a href="https://developer.android.com/guide/navigation" target="_blank">developer.android.com</a></td></tr>
+      <tr><td>AI Assistance</td><td>Claude AI (Anthropic) — used for code guidance and debugging</td></tr>
+    </table>
+  </section>
+
+</div>
+
+<footer>
+  <p>© 2025 Mohamad Shaqkir Danial | A209712 | EcoWatt e-Portfolio</p>
+</footer>
+
+</body>
+</html>
